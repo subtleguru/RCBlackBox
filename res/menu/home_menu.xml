@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:id="@+id/menu_record" android:title="Record"
+  		android:icon="@drawable/ic_menu_save" />
+  
+  <item android:id="@+id/menu_playback" android:title="Play"
+  		android:icon="@drawable/ic_menu_save" />
+  
+  <item android:id="@+id/menu_telemetry" android:title="Telemetry"
+  		android:icon="@drawable/ic_menu_save" />   
+  
+  <item android:id="@+id/menu_comms" android:title="Comms"
+  		android:icon="@drawable/ic_menu_save" />
+  		
+  <item android:id="@+id/menu_camera" android:title="Camera"
+  		android:icon="@drawable/ic_menu_save" />
+  		
+</menu>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    >
+	     
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:stretchColumns="2,3,4"
+    			android:padding="3dip"
+    			android:id="@+id/Table"
+    			>
+  
+    <TableRow>
+        <TextView android:text="@string/Axis"  style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/Min" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/Max" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/Current" style="@style/TextAppearance.Header" />
+    </TableRow>
+  
+    <TableRow>
+   		 <TextView android:text="@string/Accelerometer"  style="@style/TextAppearance.Title" />
+    </TableRow>
+      
+    <TableRow>
+        <TextView android:text="@string/X" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/XMin" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/XMax"/>
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/XCurrent" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/Y" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/YMin"/>
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/YMax"/>
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/YCurrent"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView android:text="@string/Z" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/ZMin" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/ZMax" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/ZCurrent" />       
+    </TableRow>
+        
+  
+    <TableRow>
+   		 <TextView android:text="@string/Orientation" style="@style/TextAppearance.Title" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView android:text="@string/Yaw" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/YawMin" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/YawMax"/>
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/YawCurrent" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/Roll" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/RollMin"/>
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/RollMax"/>
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/RollCurrent"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView android:text="@string/Pitch" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/PitchMin" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/PitchMax" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/PitchCurrent" />       
+    </TableRow>  
+     
+    <!-- Location, Location, Location  -->
+    <TableRow>
+   		 <TextView android:text="@string/Location"  style="@style/TextAppearance.Title" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView android:text="@string/Longitude" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/LongMin" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/LongMax"/>
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/LongCurrent" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView android:text="@string/Latitude" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/LatMin" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/LatMax" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/LatCurrent" />       
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/Altitude" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/AltMin"/>
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/AltMax"/>
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/AltCurrent"/>
+    </TableRow>
+
+    </TableLayout>
+    
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:stretchColumns="2,3,4"
+    			android:padding="3dip"
+    			android:id="@+id/Table2"
+    			android:layout_below="@id/Table" 
+    			>
+        
+    <!--  GPS Info -->
+    <TableRow>
+   		 <TextView android:text="@string/GPSInfo"  style="@style/TextAppearance.Title" />
+    </TableRow>
+    
+     <TableRow>
+        <TextView android:text="@string/Speed" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/SpeedCurrent" />
+        <TextView android:text="@string/SpeedMax" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+        android:id="@+id/SpeedMax" />       
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/GPSAccuracy" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/GPSAccuracy"/>
+        <TextView android:text="@string/BearingCurrent" style="@style/TextAppearance.Header" />
+        <TextView android:text="@string/na" style="@style/TextAppearance.TableItem" 
+         android:id="@+id/BearingCurrent"/>
+    </TableRow>
+    </TableLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@id/Table2" 
+	>
+       
+    <Button android:id="@+id/reset_button"	   	
+        android:layout_height="wrap_content"	   
+        android:layout_width="fill_parent"   
+        android:layout_weight="1"     	
+	   	android:text="@string/Reset"  
+	    />
+	
+	<Button android:id="@+id/start_button" 
+	    android:layout_toRightOf="@id/reset_button"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent"
+	    android:layout_weight="1"
+	    android:text="@string/Start" />	       	
+	
+	</LinearLayout>	
+	
+</RelativeLayout>

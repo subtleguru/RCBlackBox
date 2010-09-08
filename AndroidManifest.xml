@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.subtleguru.bbfr"
+      android:versionCode="1"
+      android:versionName="1.0"     
+      android:installLocation="preferExternal">
+      
+    <uses-permission android:name="android.permission.CAMERA"/>  
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    
+	<uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+   
+    <application android:icon="@drawable/icon" android:label="@string/app_name" 
+    			android:allowBackup="true" android:persistent="false" 
+    			android:debuggable="true" android:name="RCBlackBoxApplication" 
+    			android:description="@string/app_description">
+
+        <activity android:name=".home.HomeActivity" android:label="@string/app_name"
+       			  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".telemetry.TelemetryActivity" android:label="@string/app_name"
+       			  android:screenOrientation="portrait">
+        </activity>
+        
+        <activity android:name=".camera.TimeLapseActivity"
+                  android:label="@string/app_name">
+        </activity>
+        
+
+
+</application>
+
+
+</manifest> 

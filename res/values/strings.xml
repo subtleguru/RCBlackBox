@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--  Application  -->
+    <string name="app_name">RCBlackBox</string> 
+    <string name="app_title">Radio Control Back Box</string>
+    <string name="version">0.0.1</string>
+    <string name="credits">Bobby Abraham (subteguru@gmail.com)</string>
+    
+    <string name="Axis">Axis</string>
+    <string name="Yaw">Yaw</string>
+    <string name="Roll">Roll</string>
+    <string name="Pitch">Pitch</string>
+    <string name="X">X</string>
+    <string name="Y">Y</string>
+    <string name="Z">Z</string>
+    
+    <string name="na">n/a</string>
+    
+    <string name="Min">Min</string>
+    <string name="Max">Max</string>
+    <string name="Current">Current</string>
+    
+    <string name="Accelerometer">Accel</string>
+    <string name="Location">Pos</string>
+    <string name="Orientation">Orient</string>
+    <string name="Altitude">Alt</string>
+    <string name="Longitude">Long</string>
+    <string name="Latitude">Lat</string>
+    
+    <string name="GPSInfo">GPS Info</string>
+    <string name="Speed">Speed</string>
+    <string name="SpeedCurrent">Speed</string>
+    <string name="SpeedMax">Max</string>
+    <string name="GPSAccuracy">Acc</string>
+    <string name="BearingCurrent">Bearing</string>
+    
+    <string name="Start">Start</string>
+    <string name="Reset">Reset</string>
+    
+    <!--  Activity camera -->
+    <string name="Title">TimeLapse!</string>
+    <string name="Button01">Start</string>
+    <string name="Button02">Stop</string>
+    
+    <!-- Home Activity -->
+    
+    <string name="Camera">Camera</string>
+    <string name="Telemetry">Telemetry</string>
+    <string name="Playback">Playback</string>
+    <string name="Record">Record</string>
+    <string name="Communications">Comms</string>
+    
+
+    <string name="app_description">Black Box Flight Recorder</string>
+</resources>
